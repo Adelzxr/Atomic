@@ -1,4 +1,4 @@
-import { User, Stat } from '../types';
+import type { User, Stat } from '../types';
 
 export const mockUsers: User[] = [
   { id: '1', name: 'Alice Smith', email: 'alice@example.com', role: 'Admin', status: 'Active', createdAt: '2023-01-15' },
